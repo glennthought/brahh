@@ -1,0 +1,476 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Century Gothic';
+    background:linear-gradient(rgb(71, 17, 102),rgb(255, 116, 21));
+
+    
+}
+.navbar {
+    font-family: 'Retro Gaming';
+    background-color: wheat;
+    align-items: center;
+   
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin: 10px;
+    background-image: url(star.gif);
+    background-color: rgb(215, 215, 215);
+    position: fixed;
+    top: 0;
+
+    animation: text 30s linear infinite;
+
+}
+    .navbar .logo {
+        font-family: 'Goudy Stout';
+        list-style: hebrew;
+        animation: effect 10s alternate infinite;
+        background-image: url(star.gif);
+        animation: text 20s linear infinite;
+        border-radius: 10px;
+        color: papayawhip;
+        display: flex;
+        font-size: 1.5rem;
+        padding: 10px;
+        width: 138px;
+        height: 100px;
+    }
+
+    .navbar .nav_list {
+        list-style: none;
+        display: flex;
+
+       
+    }
+.navbar .nav_list li{
+    margin: 5px;
+    display:flex;
+
+}
+        .navbar .nav_list a {
+            border: solid 2px black;
+            background-image: url(star.gif);
+            text-decoration: none;
+            color: darkred;
+            transition: color 0.2s;
+            border: solid 2px greenyellow;
+            border-radius: 5px;
+            padding: 2px;
+            display: flex;
+            color: grey;
+          
+        }
+        .navbar .nav_list a:hover {
+            color: orangered;
+            background-color: dimgray;
+            background-image:none;    
+        }
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 6px;
+    margin: 2px;
+}
+
+    .box .sub_content {
+        margin: 3px;
+        border: solid 2px rgb(215, 215, 215);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        border-collapse: collapse;
+        animation: effects 20s alternate infinite ;
+        font-family: Castellar;
+        background-image: url(star.gif);
+        margin:0 2px 0 2px;
+    }
+    .box .sub_content1 {
+        margin: 3px;
+        border: solid 2px rgb(215, 215, 215);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        border-collapse: collapse;
+        animation: effects 20s alternate infinite;
+        font-family: Castellar;
+        background-image: url(star.gif);
+        padding:10px;
+    }
+.logo {
+    animation: effects 3s alternate infinite;
+    border: solid 2px papayawhip;
+    background-color: rgb(56, 54, 54);
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px;
+    margin: 2px;
+}
+
+
+    .box1 .sub_content1 {
+        margin: 50px;
+        border: solid 2px rgb(215, 215, 215);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        border-collapse: collapse;
+        animation: effects 20s alternate infinite;
+        font-family: Castellar;
+        background-image: url(star.gif);
+        padding: 5px 70px 5px 70px;
+    }
+
+        .box1 .sub_content1 a {
+            background: radial-gradient(dimgrey,transparent);
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 1s;
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+            .box1 .sub_content1 a:hover {
+                color: orangered;
+                background: transparent;
+            }
+            .bar{
+                align-items:center;
+                justify-content:center;
+                font-family:Arial;
+            }
+                .bar .navbars {
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    background-color: rgb(215, 215, 215);
+
+                    list-style: none;
+                }
+                .bar .navbar li {
+                    margin: 2px;
+                    display: flex;
+
+                }
+                .bar .navbars a {
+                    list-style: none;
+                    text-decoration: none;
+                    background:linear-gradient(rgb(114 112 112),rgb(180 176 176));
+                    border:solid 2px black;
+                    border-collapse:collapse;
+                    margin:2px;
+                    display:flex;
+                    font-weight:bold;
+                    color:black;
+                    transition: color 0.5s;
+            
+                }
+            .bar a:hover{
+                color:yellowgreen;
+                background-color:dimgrey;
+            }
+
+.bar .sub_content .barr {
+    padding:40px;
+}
+                .bar .sub_content {
+                    margin: 0 10px 0 10px;
+                    border: solid 2px rgb(215, 215, 215);
+                    border-radius: 10px;
+                    background-color: transparent;
+                    text-align: center;
+                    border-collapse: collapse;
+                    color: black;
+                    font-family: Arial;
+                    font-weight:bold;
+                    background: linear-gradient(rgb(114 112 112),rgb(96 92 92));
+                }
+            p{
+                color:greenyellow;
+                text-decoration:underline;
+                padding:5px;
+                font-family:'Retro Gaming';
+                
+            }
+            .bar .sub_content .top1{
+                border:solid 2px black;
+            }
+.bar .sub_content .top2 {
+    border: solid 2px black;
+}
+.bar .sub_content .top3 {
+    border: solid 2px black;
+}
+.bar .sub_content .top4 {
+    border: solid 2px black;
+}
+.bar .sub_content .top5 {
+    border: solid 2px black;
+}
+h1 {
+    animation: effect 5s alternate infinite;
+    background-image: url(star.gif);
+    padding:5px;
+    border:solid 2px rgb(215, 215, 215);
+}
+table{
+    display:none;
+}
+.dropdown {
+    position: relative;
+    display:flex;
+}
+.navbar .drap{
+    display:flex;
+}
+.navbar .drap1{
+    display:flex;
+}
+.dropbtn {
+    border: solid 2px black;
+    background-color: rgb(163, 121, 94);
+    text-decoration: none;
+    color: darkred;
+    font-size: 20px;
+    transition: color 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Retro Gaming';
+    padding: 2px;
+    margin: 3px;
+    
+}
+
+.nav-list .icon{
+    display:none;
+}
+    .dropbtn:hover {
+        color: orangered;
+        background-color: dimgray;
+    }
+
+.dropdown {
+    list-style:none;
+    display:flex;
+
+}
+
+.dropdown-content  {
+    display: none;
+    position: absolute;
+    background-image:url(star.gif);
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius:2px;
+    
+}
+
+    .dropdown-content a {
+        color: grey;
+        padding: 6px 8px;
+        text-decoration: none;
+        display: block;
+        transition: color 0.2s;
+        border:solid 2px greenyellow;
+    }
+
+.dropdown a:hover {
+    animation:effect 3s linear infinite;
+    color:darkorange;
+    
+}
+
+.show {
+    display: block;
+}
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navbar .icon {
+    display: none;
+}
+.bar .sub_content .pic1 {
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+.bar .sub_content .pic2 {
+    justify-content: space-between;
+
+}
+    .bar .sub_content .pic3{
+    justify-content: space-between;
+
+}
+
+
+.bar .sub_content .image{
+    width:300px;
+    height:400px;
+    animation:text 40s linear infinite;
+    margin:2px;
+}
+.bar .sub_content .items {
+    align-items:center;
+    justify-items: center;
+    display: flex;
+text-align:center
+}
+.bar .sub_content .pic1 .items1 li {
+text-align:center;
+justify-content:center;
+color:greenyellow;
+font-family:'Retro Gaming';
+text-decoration:underline;
+display:none;
+}
+@keyframes effect {
+    0%{
+        color:teal;
+    }
+    10% {
+       color: red;
+    }
+    20% {
+        color: blue;
+    }
+    30% {
+        color: yellow;
+    }
+    40% {
+        color: greenyellow;
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: pink;
+    }
+    70% {
+        color: orange;
+    }
+    80% {
+        color: red;
+    }
+    90%{
+        color: violet;   
+    }
+    100% {
+        color:pink;
+    }
+}
+@keyframes effects {
+    20% {
+        color: orangered;
+    }
+
+    40% {
+        color: greenyellow;
+    }
+
+    60% {
+        color: deepskyblue;
+    }
+
+    80% {
+        color: violet;
+    }
+
+    100% {
+        color: yellow;
+    }
+
+}
+@keyframes text{
+    0% {
+        color: orangered;
+        border: solid 3px orangered;
+        border-radius: 5px;
+    }
+    20% {
+        color: coral;
+        border: solid 3px coral;
+        border-radius: 5px;
+    }
+    30% {
+        color: indianred;
+        border: solid 3px indianred;
+        border-radius:5px;
+    }
+    40% {
+        color: orangered;
+        border: solid 3px orangered;
+        border-radius: 5px;
+    }
+    50% {
+        color: orange;
+        border: solid 3px orange;
+        border-radius: 5px;
+    }
+    60% {
+        color: darkred;
+        border: solid 3px darkred;
+        border-radius: 5px;
+    }
+    70% {
+        color: orange;
+        border: solid 3px orange;
+        border-radius: 5px;
+    }
+    80% {
+        color: red;
+        border: solid 3px red;
+        border-radius: 5px;
+    }
+    90% {
+        color: darkorange;
+        border: solid 3px darkorange;
+        border-radius: 5px;
+    }
+    100% {
+        color: orangered;
+        border: solid 3px orangered;
+        border-radius: 5px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+}
